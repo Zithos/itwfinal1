@@ -1,0 +1,24 @@
+﻿<section id="font-size">
+    <div class="page-header" id="topo">
+        <h2 style="padding-left:50px;"><i class="fa fa-info-circle" aria-hidden="true"></i> Director Profile: </h2>
+    </div>
+    <div class="container" style="padding-bottom: 75px">
+        <div class="col-xs-12" data-bind="foreach: directorDetails">
+            <div class="col-sm-6 col-xs-12">
+                <div class="col-xs-12" id="font">Director Name: </div>
+                <div data-bind="text: directorName" class="col-xs-12" id="espacamento"></div>
+                <div class="col-xs-12" id="font">FacebookLikes: </div>
+                <div data-bind="text: directorFacebookLikes" class="col-xs-12" id="espacamento"></div>
+                <div class="col-xs-12" id="font">Movies Directed: </div>
+                <div class="" data-bind="foreach: movies" id="espacamento">
+                    <div class="col-xs-12" id="espacamento">
+                        <div><i class="fa fa-film"></i> <a data-bind="attr: { href : '#movieDetails/'+movieID}, text: movie_title"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="col-xs-12"><img data-bind="attr: { src : photo}" id="img-d" /> </div>
+            </div>
+        </div>
+    </div>
+</section>

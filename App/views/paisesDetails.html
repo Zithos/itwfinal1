@@ -1,0 +1,14 @@
+﻿<section id="font-size">
+    <div data-bind="foreach: countriesDetails" style="padding-bottom: 75px">
+        <div class="page-header" id="topo">
+            <h2 style="padding-left:50px"><i class="fa fa-flag" aria-hidden="true"></i> Movies made in <span data-bind="text: countryName"></span> -<small> Movies List [<span data-bind="text: moviesCount"></span> ] </small> </h2>
+        </div>
+        <div class="container">
+            <div class="row" data-bind="foreach: movies">
+                <div class="col-sm-6 col-xs-12" id="espacamento">
+                    <div><i class="fa fa-film"></i> <a data-bind="attr: {href : '#movieDetails/'+ movieID}, text: movie_title"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

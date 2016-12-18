@@ -1,0 +1,14 @@
+﻿<section id="font-size">
+    <div class="page-header" data-bind="foreach: languageDetails" id="topo">
+        <h2 style="padding-left:50px"><i class="fa fa-language" aria-hidden="true"></i> Movies in <span data-bind="text: languageName"></span> -<small> Movies List [<span data-bind="text: moviesCount"></span> ] </small> </h2>
+    </div>
+    <div  style="padding-bottom: 75px">      
+        <div class="container" data-bind="foreach: languageDetails">
+            <div class="row" data-bind="foreach: movies">
+                <div class="col-sm-6 col-xs-12" id="espacamento">
+                    <div><i class="fa fa-film"></i> <a data-bind="attr: {href : '#movieDetails/'+ movieID}, text: movie_title"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+﻿<section id="font-size">
+    <div data-bind="attr: {id: escolha}">
+        <div  data-bind="foreach:genreDetails">
+            <h2 style="padding-top:250px; padding-left:50px;"><span style="background-color:lightgrey; color:black; opacity:0.8">Movies of <span data-bind="text:genreName"></span> - <small><i class="fa fa-film"></i> Movies List [<span data-bind="text: moviesCount"></span>]</small></span></h2>
+        </div>
+    </div>
+    <div class="container" data-bind="foreach:genreDetails" style="padding-top:50px; padding-bottom: 75px">
+        <div class="row" data-bind="foreach: movies">
+            <div class="col-md-6 col-sm-6 col-xs-12" id="espacamento">
+                <div><i class="fa fa-film"></i> <a data-bind="attr: {href : '#MovieDetails/'+ movieID}, text: movie_title"></a></div>
+            </div>
+        </div>
+    </div>
+</section>

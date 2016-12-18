@@ -1,0 +1,12 @@
+﻿<section id="font-size">
+    <div class="page-header" id="topo">
+        <h2 style="padding-left:50px"> Top 60 of Directors: <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
+    </div>
+    <div class="container" style="padding-bottom: 100px">
+        <div class="row" data-bind="foreach: director">
+            <div class="col-sm-6 col-xs-12" id="espacamento">
+                <div><i class="fa fa-film"></i> <a data-bind="attr: {href : '#directorDetails/'+ directorID}, text: directorName"></a></div>
+            </div>
+        </div>
+    </div>
+</section>

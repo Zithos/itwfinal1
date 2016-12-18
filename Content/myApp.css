@@ -1,0 +1,43 @@
+﻿body { font-family:Roboto;}
+.page-host{padding-top:50px;}
+#img{height:400px;}
+#font{font-size: large; font-weight:bold;}
+.carousel-inner > .item > a > img {margin: auto; background-color:black;}      
+#carousel-inner{height:200px;}  
+#espacamento{padding-bottom: 10px;}
+#font-size{font-size: medium;}
+#img-d{height:350px;}
+#topo{padding-top:50px}
+#modal1{width: 300px; height: 400px;}
+#espacamento-cima{padding-top:50px;}
+#action{background-image: url(http://sm.ign.com/ign_br/blogroll/d/deadpool-h/deadpool-has-biggest-opening-day-ever-for-an-r-rat_bekt.jpg);height: 300px;background-position: center; background-position-y:20%}
+#comedy{background-image: url(minions.jpg   ); height: 300px;background-position: center top;}
+#family{background-image: url(https://i.ytimg.com/vi/XwTf3xiBG28/maxresdefault.jpg);height: 300px;background-position-y: -500px; background-position-x: 50%}
+#history{background-image: url(http://www.filmofilia.com/wp-content/uploads/2011/09/1911_movie_wallpaper_01.jpg);height: 300px;background-position: center; background-position-y: 75%}
+#mistery{background-image: url(https://boxofficebuzzab.files.wordpress.com/2011/12/game-of-shadows.jpg);height: 300px; background-position-y:25%; background-position-x: 50%}
+#sci-fi{background-image: url(http://www.asset1.net/tv/pictures/movie/area-51-2015/Area-51-TC-1.jpg);height: 300px;background-position: center ;}
+#war{background-image: url(https://forums-wildcardproperti.netdna-ssl.com/uploads/monthly_2016_08/ark.jpg.e54e16c60badf891ac73f1defe7d43f2.jpg);height: 300px;background-position: center; background-position-y:60%}
+#adventure{background-image: url(http://pre06.deviantart.net/8d4f/th/pre/f/2013/320/d/5/the_hunger_games__catching_fire__final_poster__by_phoenixpx-d6ufj3r.jpg);height: 300px;background-position: center top;}
+#crime{background-image: url(http://orig12.deviantart.net/68b8/f/2014/029/2/6/robocop__2_by_professoradagio-d749q3s.png);height: 300px;background-position: center; background-position-y:10%}
+#fantasy{background-image: url(http://www.fbtb.net/wp-content/uploads/2013/12/71004.jpg);height: 300px;background-position: center ;}
+#horror{background-image: url(http://static.srcdn.com/wp-content/uploads/The-Conjuring-2-Poster1.jpg);height: 300px;background-position: center ;}
+#news{background-image: url();height: 300px;background-position: center top;}
+#short{background-image: url();height: 300px;background-position: center top;}
+#western{background-image: url(http://s3.foxmovies.com/foxmovies/production/films/96/images/gallery/revenant-gallery-20-gallery-image.jpg);height: 300px;background-position: center; background-position-y:13%}
+#animation{background-image: url(http://static.srcdn.com/wp-content/uploads/Finding-Dory-Movie-Poster.jpg);height: 300px;background-position: center right;}
+#documentary{background-image: url(http://cdn2.thr.com/sites/default/files/2015/01/Censored_Voices_still.jpg);height: 300px;background-position: center right; background-position-y: 70%}
+#film-noir{background-image: url(https://i.ytimg.com/vi/-uOfCA4OpFw/maxresdefault.jpg);height: 300px;background-position: center top;}
+#music{background-image: url(http://cdn.collider.com/wp-content/uploads/whiplash-miles-teller-jk-simmons.jpg);height: 300px;background-position: center ; background-position-y:5% }
+#reality-tv{background-image: url();height: 300px;background-position: center top;}
+#sport{background-image: url(https://espngrantland.files.wordpress.com/2015/07/southpaw-jake-gyllenhaal-2.jpeg);height: 300px;background-position: center top; background-repeat:no-repeat; background-color:black}
+#biography{background-image: url(http://2.bp.blogspot.com/-f5Ap9Rp_kF0/VipfRNAhZMI/AAAAAAAABrA/0CFfwOzceF4/s1600/Steve-Jobs-Movie-Thumb.png);height: 300px;background-position: center ; background-position-y:13%}
+#drama{background-image: url(http://www.trbimg.com/img-5605bc21/turbine/sc-mov-0928-the-walk-review-20150925);height: 300px;background-position: center; background-position-y:25%}
+#game-show{background-image: url(); height: 300px;background-position: center top;}
+#musical{background-image: url(http://assets.lovetheatre.com/assets/29/3482/gallery/7-Jersey-Boys-London.jpg);height: 300px;background-position: center; background-position-y:15%}
+#romance{background-image: url(https://i.ytimg.com/vi/3JIDYzmL4UE/maxresdefault.jpg);height: 300px;background-position:center top; background-repeat:no-repeat ;}
+#thriller{background-image: url(http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/styles/main_element/public/media/image/2016/07/election-noche-bestias_1.jpg?itok=wIsFpWvy);height: 300px;background-position: center ; background-position-y:25%}
+#atores{background-image: url(http://www.telegraph.co.uk/content/dam/films/2016/04/28/chaplin-xlarge_trans++Rp36Ti1MFCYr8PMuS2fHb17hoDUspm84EYl8tHPMRlk.jpg); height: 300px; background-position: center; background-position-y: 0%}
+#diretores{background-image: url(http://diariodigital.sapo.pt/images_content/2015/2015421630_manoel-oliveira020415.jpg); height: 300px; background-position:top center; background-repeat:no-repeat; background-color:black;}
+#filmes{background-image: url(trip.png); height: 300px; background-position:center; background-repeat:no-repeat; background-color:black}
+#generos{background-image: url(cinema.png); height: 300px; background-position:center; background-repeat:no-repeat; background-color:black}
+#ozzz{background-image: url(oz.jpg);}

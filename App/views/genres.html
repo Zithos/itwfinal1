@@ -1,0 +1,19 @@
+﻿<section id="font-size">
+    <div style="padding-top:25px">
+        <div id="generos">
+            <div>
+                <h2 style="padding-top:250px; padding-left:50px;"><span style="background-color:lightgrey; color:black; opacity:0.8">Genres - <small data-bind="visible: (genresCount() > 0)"><i class="fa fa-ticket" aria-hidden="true"></i> Genres List [<span data-bind="text: genresCount"></span> ]</small></span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top:15px; padding-bottom: 75px;  padding-top:50px;">
+        <div class="row" data-bind="foreach: genres">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="espacamento">
+                <div><i class="fa fa-ticket" aria-hidden="true"></i><a data-bind="attr: { href : '#genreDetails/'+genreID}, text: genreName"></a></div>
+            </div>
+        </div>
+        <div data-bind="css: css_show">
+            <p class="alert-danger">No genres found</p>
+        </div>
+    </div>
+</section>

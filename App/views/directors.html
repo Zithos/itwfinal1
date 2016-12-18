@@ -1,0 +1,32 @@
+﻿<section id="font-size">
+    <div style="padding-top:25px">
+        <div id="diretores">
+            <div>
+                <h2 style="padding-top:250px; padding-left:50px;"><span style="background-color:lightgrey; color:black; opacity:0.8">DirectorService - <small data-bind="visible: (directorsCount() > 0)"><i class="fa fa-bullhorn"></i> Directors List [<span data-bind="text: directorsCount"></span> ]</small></span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container"  style="padding-bottom: 75px;  padding-top:50px;">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-11">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Director Name:</span>
+                    <input type="text" id="directorTitle" class="form-control" data-bind="textInput: searchText, event: {keyup: searchDirectors}" aria-describedby="basic-addon1" placeholder="Type to Search" />
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-3 col-xs-2">
+                <button class="btn btn-default" id="clearSearchBtn" data-bind="click : clearDirectors"><i class="fa fa-trash-o"></i></button>
+            </div>
+        </div>
+        <div id="espacamento-cima">
+            <div class="row" data-bind="foreach: directors">
+                <div class="col-md-4 col-sm-6 col-xs-12" id="espacamento">
+                    <div><i class="fa fa-bullhorn"></i> <a data-bind="attr: { href : '#directorDetails/'+directorID}, text: directorName"></a></div>
+                </div>
+            </div>
+        </div>
+        <div data-bind="css: css_show">
+            <p class="alert alert-danger col-md-12" style="text-align:center">No directors found</p>
+        </div>
+    </div>
+</section>
